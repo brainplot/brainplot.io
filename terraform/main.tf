@@ -56,5 +56,5 @@ resource "cloudflare_record" "dmarc" {
   zone_id = data.cloudflare_zone.this.zone_id
   name    = "_dmarc"
   type    = "TXT"
-  value   = "v=DMARC1; p=quarantine"
+  value   = "v=DMARC1; p=quarantine;"
 }
