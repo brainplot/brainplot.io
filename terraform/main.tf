@@ -58,3 +58,7 @@ resource "cloudflare_record" "dmarc" {
   type    = "TXT"
   value   = "v=DMARC1; p=quarantine;"
 }
+
+resource "cloudflare_zone_dnssec" "this" {
+  zone_id = data.cloudflare_zone.this.zone_id
+}
