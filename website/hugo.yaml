@@ -17,3 +17,5 @@ privacy:
     disable: true
 cleanDestinationDir: true
 enableGitInfo: true
+minify:
+  minifyOutput: true
