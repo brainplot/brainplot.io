@@ -16,3 +16,4 @@ privacy:
   youtube:
     disable: true
 cleanDestinationDir: true
+enableGitInfo: true
