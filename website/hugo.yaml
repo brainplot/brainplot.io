@@ -2,3 +2,16 @@ baseURL: https://brainplot.io/
 languageCode: en-us
 title: Gianluca Recchia
 theme: papermod
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
